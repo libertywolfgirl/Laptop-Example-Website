@@ -7,3 +7,14 @@
 html {
   font-size: 62.5%;
 }
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  background: lightblue;
+  width: 90%
+  margin: auto;
+}
