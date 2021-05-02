@@ -1,20 +1,40 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
 }
 
 header {
   display: flex;
-  background: lightblue;
-  width: 90%
+  width: 90%;
+  height: 10vh;
   margin: auto;
+  align-items: center;
+}
+
+.logo-container,
+.nav-links,
+.cart {
+  display: flex;
+}
+
+.logo-container {
+  flex: 1;
+}
+
+.logo {
+  font-weight: 400;
+  margin: 5px;
+}
+
+nav {
+  flex: 2;
+}
+
+.nav-links {
+  
+}
+
+.cart {
+  flex: 1;
 }
